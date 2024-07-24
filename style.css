@@ -1,0 +1,90 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(215, 200, 246);
+    color: rgb(78, 77, 77);
+}
+
+.div-profile{
+    background-color: rgb(195, 170, 239);
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 40px;
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.755);
+}
+
+.div-profile *{
+    background-color: inherit;
+    border-radius: 40px;
+}
+
+.div-header{
+    padding-top: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.div-header-photo{
+    display: flex;
+    justify-content: center;
+}
+
+.div-header-photo img{
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(211, 202, 227, 0.738);
+}
+
+.div-header-info{
+    margin-bottom: 40px;
+}
+
+.div-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid 3px; */
+}
+
+.div-main-button{
+    border: none;
+    transition-duration: 0.4s;
+    border-radius: 40px;
+    height: 60px;
+    width: 375px;
+    margin-bottom: 20px;
+}
+
+.div-main-button:hover{
+    cursor: pointer;
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.755);
+}
+
+.div-main-social{
+    width: 350px;
+    padding: 7px;
+    display: flex;
+    border: solid 1px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.div-main-social-img{
+    width: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.div-main-social-p{
+    width: 283px;
+    text-align: center;
+}
+
+.div-main-social img{
+    width: 30px;
+    border-radius: 0;
+}
+
+.div-footer{
+    text-align: center;
+    padding: 15px;
+}
